@@ -78,6 +78,31 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* SEÇÃO INVESTIMENTO */
+#corpo .investimento::before{
+    padding: 0;
+    padding-top: 216.0625%;
+}
+/* SOBRE A ARTISTA */
+#corpo .sobre-artista::before{
+    padding: 0;
+    padding-top: 62.0625%;
+}
+
+#corpo .sobre-artista picture{
+    width:94%;
+    margin:0 auto;
+}
+#corpo .sobre-artista h2{
+    font-size: 2.3vw;
+    margin: 10% auto 6%;
+}
+
+/* CARROUSSEL SEVIÇOS */
+#corpo .carroussel-servicos::before{
+    padding: 0;
+    padding-top: 216.0625%;
+}
 /* ----Responsividade media query---- */
 
 
