@@ -25,15 +25,59 @@
     font-weight:700;
 }   
 /* BANNER  */
-#corpo .banner_capa::before{
+#corpo .banner_artista::before{
     padding: 0;
-    padding-top: 39.0625%;
+    padding-top: 49.0625%;
 }
-#corpo .banner_capa{position: relative;display: block;width: 100%; margin: 0 auto;}
-#corpo .banner_capa picture{display: block;width: 100%;}
-#corpo .banner_capa picture img{position: relative;display: block;width: 97%; margin: 0 auto}
-
-/* SOBRE A ARTISTA */
+#corpo .banner_artista{position: relative;display: block;width: 100%; margin: 0 auto;}
+#corpo .banner_artista picture{display: block;width: 100%;}
+#corpo .banner_artista picture img{position: relative;display: block;width: 97%; margin: 0 auto}
+#corpo .banner_artista .texto-artista p{
+  font-size:1.2vw;
+    margin-bottom:-1.5%
+}
+#corpo .banner_artista .texto-artista h2{
+  font-size:1.6vw
+}
+#corpo .banner_artista .texto-artista hr{
+     width:80%;
+}
+/* SEÇÃO BENEFICOS */
+#corpo .beneficios p{
+    font-size:2.2vw;
+    width:80%;
+    margin:2% auto;
+}
+#corpo .beneficios h2{
+    font-size:3vw;
+   margin-top:11%;
+}
+#corpo .beneficios-card::before{
+    padding: 0;
+    padding-top: 92.0625%;
+}
+#corpo .beneficios-card picture{
+    width: 80%;
+    margin: 0 auto;
+}
+#corpo .beneficios .orientacao{
+    font-size:1.2vw;
+    width:59%;
+}
+/* VIDEO */
+#corpo .video::before{
+    padding: 0;
+    padding-top: 92.0625%;
+}
+#corpo .video .video-box{
+    z-index:10;
+}
+#corpo .video .video-box, #corpo .video .background-gradiente{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* ----Responsividade media query---- */
 
 
