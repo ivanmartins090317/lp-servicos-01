@@ -7,7 +7,12 @@
     responsiveClass: true,
     nav: true,
     navText: ['<img src="https://fastshopwr-a.akamaihd.net/pages/2023/12/image/esquerda.png">', '<img src="https://fastshopwr-a.akamaihd.net/pages/2023/12/image/direita.png">'],
-    responsive:{ 0:{ items: 4, margin:-1} },
+    responsive:{ 
+      0:{ items: 3, margin:0},
+      1100: {
+        items:4
+      }
+     },
     mergeFit:true,
     autoWidth:false,
     slideBy: 3,
