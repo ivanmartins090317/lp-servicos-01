@@ -10,7 +10,7 @@
 #corpo .texto-topo P {
     font-size:2.1vw;
     width:38%;
-    margin:4% auto;
+    margin:2% auto 4%;
 }
 #corpo .texto-topo h2.sub-titulo{
     font-size:3.6vw;
@@ -50,6 +50,7 @@
 #corpo .beneficios h2{
     font-size:3vw;
    margin:11% 0 4%;
+   font-weight:400;
 }
 #corpo .beneficios-card::before{
     padding: 0;
@@ -68,26 +69,34 @@
 /* VIDEO */
 #corpo .video::before{
     padding: 0;
-    padding-top: 97.0625%;
+    padding-top: 76%;
+    margin-bottom:10%;
 }
 #corpo .video .video-box{
     z-index:10;
 }
 
 /* SEÇÃO INVESTIMENTO */
-#corpo .investimento::before{
-    padding: 0;
-    padding-top: 216.0625%;
+#corpo .investimento-tabela::before {
+    padding-top: 215.0625%;
+   
+}
+#corpo .investimento-tabela img{
+    width:75%;
+}
+#corpo .investimento-link::before {
+    padding-top: 63.0625%;
+   
 }
 #corpo .investimento picture{
     position: absolute;
 }
-#corpo .investimento a{
+#corpo .investimento-link a{
     position: absolute;
     width: 20%;
     height:5%;
     background-color: transparent;
-    bottom: 3%;
+    bottom: 11%;
     left: 38%;
 }
 /* SOBRE A ARTISTA */
@@ -104,6 +113,7 @@
 #corpo .sobre-artista h2{
     font-size: 2.3vw;
     margin: 10% auto 6%;
+    font-weight:400;
 }
 #corpo .sobre-artista a{
     position: absolute;
@@ -116,10 +126,10 @@
 /* CARROUSSEL SEVIÇOS */
 #corpo .carroussel-servicos::before{
     padding: 0;
-    padding-top: 57.0625%;
+    padding-top: 64.0625%;
 }
 #corpo .carroussel-servicos{
-    margin-bottom:19%;
+    margin-bottom:10%;
     position:relative;
 }
 #corpo .carroussel-servicos .texto-carrossel{
@@ -187,15 +197,19 @@
 
 
 @media screen and (max-width: 1100px) {
+/* LOGO FASTSHOP TOPO */
+#corpo .texto-topo img{
+    width:34%;
+}
 /* TEXTO TOPO */
   #corpo .texto-topo P{
-    font-size:2.3vw;
+    font-size:2vw;
   }
   #corpo .texto-topo h2.sub-titulo{
     font-size:4.2vw;
   }
   #corpo .texto-topo P.bold{
-    font-size:2.6vw;
+    font-size:2.3vw;
     width:80%
   }
 /* BANNER TOPO */
@@ -205,15 +219,15 @@
 #corpo .banner_artista .texto-artista p,
 #corpo .banner_artista .texto-artista h2
 {
-    font-size:3.1vw;
+    font-size:3vw;
 }
 #corpo .banner_artista .texto-artista hr {
-    width: 90%;
+    width: 86%;
 }
 /* SEÇAO BENEFICIOS */
 #corpo .beneficios p {
-    font-size: 3.4vw;
-    width: 90%;
+    font-size: 3.2vw;
+    width: 83%;
     margin: 2% auto;
     line-height: 5.5vw;
 }
@@ -221,25 +235,34 @@
     padding-top: 157.0%;
 }  
 #corpo .beneficios .orientacao{
-    font-size:2.1vw;
-    width: 85%;
+    font-size:2vw;
+    width: 95%;
     margin: 5% auto 10%;
     line-height:3vw;
     
 }
 /* SEÇÃO VIDEO */
+#corpo .video:before {
+    padding-top: 84.0625%;
+}
 #corpo .video{
  margin-bottom: 17%;
 }
-#corpo .video .background-gradiente  {
-    width:100%;
-}
 
 /* SEÇAÕ INVESTIMENTO */
-#corpo .investimento::before {
-    padding-top: 320.0625%;
+#corpo .investimento-tabela::before {
+    padding-top: 219.0625%;
    
 }
+#corpo .investimento-link::before {
+    padding-top: 66.0625%;
+   
+}
+#corpo .investimento-link a {
+    width: 36%;
+    bottom:15%;
+    left: 31%;
+}   
 /* SOBRE A ARTISTA */
 #corpo .sobre-artista::before {
     padding-top: 107.0625%;
@@ -251,18 +274,23 @@
 #corpo .carroussel-servicos::before {
     padding-top: 83.0625%;
 }
+#corpo .carroussel-servicos .texto-carrossel img {
+    width: 46vw;
+    margin-bottom:5%;
+}
 #corpo .carroussel-servicos .texto-carrossel h2 {
     font-size: 6vw;
 }
 #corpo .carroussel-servicos .texto-carrossel p {
-    font-size: 3.2vw;
+    font-size: 3.1vw;
 }
 
 #corpo .carroussel-servicos .owl-nav .owl-next, #corpo .carroussel-servicos .owl-nav .owl-prev {
-    width: 35px;
-    height: 35px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
 }
+
 }
 
 
