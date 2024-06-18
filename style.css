@@ -4,7 +4,8 @@
     text-align: center;
 }
 #corpo .texto-topo img{
- margin-top:5%;
+  width:36%;
+  margin-top:5%;
 }
 
 #corpo .texto-topo P {
@@ -40,6 +41,7 @@
 }
 #corpo .banner_artista .texto-artista hr{
      width:66%;
+     margin:0 auto;
 }
 /* SEÇÃO BENEFICOS */
 #corpo .beneficios p{
@@ -49,7 +51,7 @@
 }
 #corpo .beneficios h2{
     font-size:3vw;
-   margin:11% 0 4%;
+   margin:11% 0 6%;
    font-weight:400;
 }
 #corpo .beneficios-card::before{
@@ -102,7 +104,7 @@
 /* SOBRE A ARTISTA */
 #corpo .sobre-artista::before{
     padding: 0;
-    padding-top: 62.0625%;
+    padding-top: 63.0625%;
 }
 
 #corpo .sobre-artista picture{
@@ -126,7 +128,7 @@
 /* CARROUSSEL SEVIÇOS */
 #corpo .carroussel-servicos::before{
     padding: 0;
-    padding-top: 64.0625%;
+    padding-top: 65.0625%;
 }
 #corpo .carroussel-servicos{
     margin-bottom:10%;
@@ -231,12 +233,17 @@
     margin: 2% auto;
     line-height: 5.5vw;
 }
+#corpo .beneficios h2 {
+    font-size: 3vw;
+    margin:5% auto;
+    font-weight: 400;
+}
 #corpo .beneficios-card::before {
     padding-top: 157.0%;
 }  
 #corpo .beneficios .orientacao{
     font-size:2vw;
-    width: 95%;
+    width: 67%;
     margin: 5% auto 10%;
     line-height:3vw;
     
@@ -255,7 +262,7 @@
    
 }
 #corpo .investimento-link::before {
-    padding-top: 66.0625%;
+    padding-top: 63.0625%;
    
 }
 #corpo .investimento-link a {
@@ -272,7 +279,7 @@
 }
 /* seçao carrossel */
 #corpo .carroussel-servicos::before {
-    padding-top: 83.0625%;
+    padding-top: 84.0625%;
 }
 #corpo .carroussel-servicos .texto-carrossel img {
     width: 46vw;
