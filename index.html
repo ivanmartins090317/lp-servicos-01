@@ -12,14 +12,101 @@
 
 <!-- METRICAS FAST SHOP -->
 <link rel="stylesheet" href="https://fastshopwr-a.akamaihd.net/spot/metrics/metrics.css">
-<!-- link css -->
 
-<!-- <link rel="stylesheet" href="https://fastshopwr-a.akamaihd.net/pages/2024/05/presentes/style.css"> -->
-<link rel="stylesheet" href="style.css">
+<style>
+    #corpo {display: block;position: relative;margin: 0 auto; width: 100%;max-width: 1600px;box-sizing: border-box; padding: 0; font-family: 'Open Sans', sans-serif; color: #000000;overflow: hidden; background:#FFFFFF; text-align: center;}
+/* TEXTO TOPO */
+#corpo .texto-topo{ text-align: center;}
+#corpo .texto-topo img{ width:36%; margin-top:5%;}
+
+#corpo .texto-topo P { font-size:2.1vw; width:38%; margin:2% auto 4%;}
+#corpo .texto-topo h2.sub-titulo{ font-size:3.6vw; font-weight:700;}
+#corpo .texto-topo P.bold { font-size:2.3vw; font-weight:700; margin-top:-2vw} 
+/* BANNER */
+#corpo .banner_artista::before{ padding: 0; padding-top: 49.0625%;}
+#corpo .banner_artista{position: relative;display: block;width: 100%; margin: 0 auto;}
+#corpo .banner_artista picture{display: block;width: 100%;}
+#corpo .banner_artista picture img{position: relative;display: block;width: 97%; margin: 0 auto}
+#corpo .banner_artista .texto-artista p{ font-size:1.2vw; margin: 4% 0 -1%;}
+#corpo .banner_artista .texto-artista h2{ font-size:1.6vw; margin-bottom: 3%;}
+#corpo .banner_artista .texto-artista hr{ width:66%; margin:0 auto;}
+/* SEÇÃO BENEFICOS */
+#corpo .beneficios p{ font-size:2.2vw; width:85%; margin:2% auto;}
+#corpo .beneficios h2{ font-size:3vw; margin:11% 0 6%; font-weight:400;}
+#corpo .beneficios-card::before{ padding: 0; padding-top: 92.0625%;}
+#corpo .beneficios-card picture{ width: 80%; margin: 0 auto;}
+#corpo .beneficios .orientacao{ font-size:1.2vw; width:59%; margin: 5% auto 10%;}
+
+/* VIDEO */
+#corpo .video::before{ padding: 0; padding-top: 76%; margin-bottom:10%;}
+#corpo .video .video-box{ z-index:10;}
+
+/* SEÇÃO INVESTIMENTO */
+#corpo .investimento-tabela::before { padding-top: 215.0625%; }
+#corpo .investimento-tabela img{ width:75%;}
+#corpo .investimento-link::before { padding-top: 63.0625%; }
+#corpo .investimento picture{ position: absolute;}
+#corpo .investimento-link a{ position: absolute; width: 20%; height:5%; background-color: transparent; bottom: 11%; left: 38%;}
+/* SOBRE A ARTISTA */
+#corpo .sobre-artista::before{ padding: 0; padding-top: 63.0625%;}
+
+#corpo .sobre-artista picture{ width:94%; margin:0 auto; }
+#corpo .sobre-artista h2{ font-size: 2.3vw; margin: 10% auto 6%; font-weight:400;}#corpo .sobre-artista a{ position: absolute; width: 17%; height:7%; background-color: transparent; bottom: 25%; left: 50%;}
+/* CARROUSSEL SEVIÇOS */
+#corpo .carroussel-servicos::before{ padding: 0; padding-top: 65.0625%;}
+#corpo .carroussel-servicos{ margin-bottom:10%; position:relative;}
+#corpo .carroussel-servicos .texto-carrossel{ margin-top:6%;}
+#corpo .carroussel-servicos .texto-carrossel img{ width:26vw; margin:3.5%}
+#corpo .carroussel-servicos .texto-carrossel p{ font-size: 1.6vw; margin: -2.5vw 0 8%; padding:0;}
+#corpo .carroussel-servicos picture{ display: inline-block; width:90%; margin:0 auto;}
+#corpo .carroussel-servicos picture a{ position: absolute; width: 36%; height: 7%; background-color: transparent; bottom: 0%; left: 3%;}
+/* NAVEGAÇÃO DO CARROUSSEL */
+#corpo .carroussel-servicos .owl-carousel.owl-drag .owl-item { width:300px; }
+#corpo .carroussel-servicos .owl-nav{ width:100%; position: absolute; top:43%; display:flex; align-items:center; justify-content:center;}
+#corpo .carroussel-servicos .owl-nav .owl-next, #corpo .carroussel-servicos .owl-nav .owl-prev{ width:50px; height:50px; border-radius:50%; background:#Fff;}
+#corpo .carroussel-servicos .owl-nav .owl-prev{ position:absolute; left:0.5vw;}
+#corpo .carroussel-servicos .owl-nav .owl-next{ position:absolute; right:0.2vw;}
+
+/* ----Responsividade media query---- */
+
+@media screen and (max-width: 1100px) {
+/* LOGO FASTSHOP TOPO */
+#corpo .texto-topo img{ width:34%;}
+/* TEXTO TOPO */
+#corpo .texto-topo P{ font-size:2vw; }
+#corpo .texto-topo h2.sub-titulo{ font-size:4.2vw; }
+#corpo .texto-topo P.bold{ font-size:2.3vw; width:80% }
+/* BANNER TOPO */
+#corpo .banner_artista::before { padding-top: 81.0625%;}
+#corpo .banner_artista .texto-artista p,
+#corpo .banner_artista .texto-artista h2{ font-size:3vw;}
+#corpo .banner_artista .texto-artista hr { width: 86%;}
+/* SEÇAO BENEFICIOS */
+#corpo .beneficios p { font-size: 3.2vw; width: 83%; margin: 2% auto; line-height: 5.5vw;}
+#corpo .beneficios h2 { font-size: 3vw; margin:5% auto; font-weight: 400;}
+#corpo .beneficios-card::before { padding-top: 157.0%;} 
+#corpo .beneficios .orientacao{ font-size:2vw; width: 67%; margin: 5% auto 10%; line-height:3vw; }
+/* SEÇÃO VIDEO */
+#corpo .video:before { padding-top: 84.0625%;}
+#corpo .video{ margin-bottom: 17%;}
+
+/* SEÇAÕ INVESTIMENTO */
+#corpo .investimento-tabela::before { padding-top: 219.0625%; }
+#corpo .investimento-link::before { padding-top: 63.0625%; }#corpo .investimento-link a { width: 36%; bottom:6%; height:15%; left: 31%;} 
+/* SOBRE A ARTISTA */
+#corpo .sobre-artista::before { padding-top: 107.0625%;}
+#corpo .sobre-artista h2 { font-size: 2.9vw;}
+/* seçao carrossel */
+#corpo .carroussel-servicos::before { padding-top: 84.0625%;}
+#corpo .carroussel-servicos .texto-carrossel img { width: 46vw; margin-bottom:5%;}
+#corpo .carroussel-servicos .texto-carrossel h2 { font-size: 6vw;}#corpo .carroussel-servicos .texto-carrossel p { font-size: 3.1vw;}
+#corpo .carroussel-servicos .owl-nav .owl-next, #corpo .carroussel-servicos .owl-nav .owl-prev { width: 22px; height: 22px; border-radius: 50%;}}
+</style>
+
 <!-- INICIO LP -->
 <div id="corpo">
     <div class="texto-topo">
-        <img src="files/image-logo-fast-shop.png" alt="logo Fast Shop" srcset="">
+        <img src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/image-logo-fast-shop.png" alt="logo Fast Shop" srcset="">
         <p>Serviços que cuidam de você em todos os momentos.</p>
         <h2 class="sub-titulo">Cuidar é: <br>
         Instalar e Ensinar sobre o uso</h2>
@@ -28,9 +115,9 @@
     <div class="wrapper-aspect-ratio banner_artista">
         <picture class="inner">
             <source media="(max-width: 1100px)"
-                srcset="files/banner_topo_mobile.png">
+                srcset="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/banner_topo_mobile.png">
             <img width="100%" height="auto"
-                src="files/banner_topo.png"
+                src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/banner_topo.png"
                 alt="banner artista Camila Teshima">
         </picture>
         <div class="texto-artista">
@@ -54,8 +141,8 @@
         <h2>Quais são os benefícios?</h2>
         <div class="wrapper-aspect-ratio beneficios-card">
             <picture class="inner">
-                <source media="(max-width: 1100px)" srcset="files/image-card-beneficios-mobile.png">
-                <img width="100%" height="auto" src="files/imagem-card-beneficios.png" alt="seção de beneficios Fast Shop">
+                <source media="(max-width: 1100px)" srcset="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/image-card-beneficios-mobile.png">
+                <img width="100%" height="auto" src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/imagem-card-beneficios.png" alt="seção de beneficios Fast Shop">
             </picture>
         </div>
         <p class="orientacao">*Testes funcionais inclusos. Solicitação imediata de troca em caso de defeito e suporte técnico telefônico por 30
@@ -74,9 +161,9 @@
     <div class="wrapper-aspect-ratio investimento-tabela">
         <picture class="inner">
             <source media="(max-width: 1100px)"
-                srcset="files/imagem-investimento-tabela-mobile.png">
+                srcset="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/imagem-investimento-tabela-mobile.png">
             <img width="100%" height="auto"
-                src="files/imagem-investimento-tabela.png"
+                src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/imagem-investimento-tabela.png"
                 alt="Tabela de investimento compra produtos Fast Shop">
         </picture>
     </div>  
@@ -84,9 +171,9 @@
     <div class="wrapper-aspect-ratio investimento-link">
         <picture class="inner">
             <source media="(max-width: 1100px)"
-                srcset="files/imagem-investimento-link-mobile (2).png">
+                srcset="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/imagem-investimento-link-mobile (2).png">
             <img width="100%" height="auto"
-                src="files/imagem-investimento-link.png"
+                src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/imagem-investimento-link.png"
                 alt="Banner arte Camila Teshhima">
         </picture>
         <a href="#"></a>
@@ -96,9 +183,9 @@
             <picture class="inner">
                 <h2>Sobre o artista</h2>
                 <source media="(max-width: 1100px)"
-                    srcset="files/imagem-sobre-artista-mobile.png">
+                    srcset="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/imagem-sobre-artista-mobile.png">
                 <img width="100%" height="auto"
-                    src="files/sobre-artista.png"
+                    src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/sobre-artista.png"
                     alt="banner artista Camila Teshima">
             </picture>   
             <a href="#"></a>    
@@ -107,30 +194,30 @@
 <div class="wrapper-aspect-ratio carroussel-servicos">
     <div class="inner">
         <div class="texto-carrossel">
-            <img src="files/image-logo-fast-shop.png" alt="logo Fast Shop">
+            <img src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/image-logo-fast-shop.png" alt="logo Fast Shop">
             <p>Descubra todos nossos cuidados</p>
         </div>
      
         <div class="carousel_serviços">
             <div id="fast_rotativo" class="owl-carousel fast_rotativo">
                 <picture>
-                    <img width="100%" height="auto" src="files/servico_01.png" alt="card sobre serviços Fast Shop">
+                    <img width="100%" height="auto" src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/servico_01.png" alt="card sobre serviços Fast Shop">
                     <a href=""></a>
                 </picture>
                 <picture>
-                    <img width="100%" height="auto" src="files/servico_02.png" alt="card sobre serviços Fast Shop">
+                    <img width="100%" height="auto" src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/servico_02.png" alt="card sobre serviços Fast Shop">
                     <a href=""></a>
                 </picture>
                 <picture>
-                    <img width="100%" height="auto" src="files/servico_03.png" alt="card sobre serviços Fast Shop">
+                    <img width="100%" height="auto" src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/servico_03.png" alt="card sobre serviços Fast Shop">
                     <a href=""></a>
                 </picture>
                 <picture>
-                    <img width="100%" height="auto" src="files/servico_04.png" alt="card sobre serviços Fast Shop">
+                    <img width="100%" height="auto" src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/servico_04.png" alt="card sobre serviços Fast Shop">
                     <a href=""></a>
                 </picture>
                 <picture>
-                    <img width="100%" height="auto" src="files/servico_05.png" alt="card sobre serviços Fast Shop">
+                    <img width="100%" height="auto" src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v2/servico_05.png" alt="card sobre serviços Fast Shop">
                     <a href=""></a>
                 </picture>
                
@@ -141,4 +228,28 @@
     </div>
 </div>
    
-<script src="script.js"></script>
+<script>
+         $(document).ready(function () {
+                $(".fast_rotativo").owlCarousel({
+                    loop: true,
+                    dots: false,
+                    nav: true,
+                    smartSpeed: 600,
+                    responsiveClass: true,
+                    nav: true,
+                    navText: ['<img src="https://fastshopwr-a.akamaihd.net/pages/2023/12/image/esquerda.png">', '<img src="https://fastshopwr-a.akamaihd.net/pages/2023/12/image/direita.png">'],
+                    responsive: {
+                        0: { items: 3, margin: 0 },
+                        1100: {
+                            items: 4
+                        }
+                    },
+                    mergeFit: true,
+                    autoWidth: false,
+                    slideBy: 3,
+                    autoplay: true,
+                    autoplayTimeout: 20000,
+                    autoplayHoverPause: true,
+                });
+            })
+</script>
