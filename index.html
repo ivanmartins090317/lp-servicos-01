@@ -58,14 +58,10 @@
 #corpo .carroussel-servicos .texto-carrossel{ margin-top:6%;}
 #corpo .carroussel-servicos .texto-carrossel img{ width:26vw; margin:3.5%}
 #corpo .carroussel-servicos .texto-carrossel p{ font-size: 1.6vw; margin: -2.5vw 0 8%; padding:0;}
-#corpo .carroussel-servicos picture{ display: inline-block; width:90%; margin:0 auto;}
-#corpo .carroussel-servicos picture a{ position: absolute; width: 36%; height: 7%; background-color: transparent; bottom: 0%; left: 3%;}
-/* NAVEGAÇÃO DO CARROUSSEL */
-#corpo .carroussel-servicos .owl-carousel.owl-drag .owl-item { width:300px; }
-#corpo .carroussel-servicos .owl-nav{ width:100%; position: absolute; top:43%; display:flex; align-items:center; justify-content:center;}
-#corpo .carroussel-servicos .owl-nav .owl-next, #corpo .carroussel-servicos .owl-nav .owl-prev{ width:50px; height:50px; border-radius:50%; background:#Fff;}
-#corpo .carroussel-servicos .owl-nav .owl-prev{ position:absolute; left:0.5vw;}
-#corpo .carroussel-servicos .owl-nav .owl-next{ position:absolute;right:0.2vw ;}
+#corpo .todos-servicos{    width:100%;    }
+#corpo .todos-servicos .grupo-servicos picture { position: relative;}
+#corpo .todos-servicos .grupo-servicos{    display: flex;    width: 95%;    margin: 0 auto;    justify-content: space-between;}
+#corpo .todos-servicos .grupo-servicos picture a{ position: absolute; width: 36%; height: 9%; background-color: transparent; bottom: 0%; left: 0%;}
 
 /* ----Responsividade media query---- */
 @media screen and (min-width: 1601px){
@@ -102,10 +98,13 @@
 #corpo .sobre-artista::before { padding-top: 107.0625%;}
 #corpo .sobre-artista h2 { font-size: 2.9vw;}
 /* seçao carrossel */
-#corpo .carroussel-servicos::before { padding-top: 84.0625%;}
+#corpo .todos-servicos .grupo-servicos {    display: flex;    width: 100%;    margin: 0 auto;    gap: 2%;    justify-content: space-between;}
+/* #corpo .carroussel-servicos::before { padding-top: 84.0625%;}
 #corpo .carroussel-servicos .texto-carrossel img { width: 46vw; margin-bottom:5%;}
 #corpo .carroussel-servicos .texto-carrossel h2 { font-size: 6vw;}#corpo .carroussel-servicos .texto-carrossel p { font-size: 3.1vw;}
-#corpo .carroussel-servicos .owl-nav .owl-next, #corpo .carroussel-servicos .owl-nav .owl-prev { width: 22px; height: 22px; border-radius: 50%;display: flex; align-items: center;justify-content:center;}}
+#corpo .carroussel-servicos .owl-nav .owl-next, #corpo .carroussel-servicos .owl-nav .owl-prev { width: 22px; height: 22px; border-radius: 50%;display: flex; align-items: center;justify-content:center;} */
+
+}
 </style>
 
 <!-- INICIO LP -->
@@ -147,7 +146,7 @@
         <div class="wrapper-aspect-ratio beneficios-card">
             <picture class="inner">
                 <source media="(max-width: 1100px)" srcset="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v3/image-card-beneficios-mobile.png">
-                <img width="100%" height="auto" src="files/imagem-card-beneficios_ajustada.png" alt="seção de beneficios Fast Shop">
+                <img width="100%" height="auto" src="files/imagem_card_ok.png" alt="seção de beneficios Fast Shop">
             </picture>
         </div>
         <p class="orientacao">*Testes funcionais inclusos. Solicitação imediata de troca em caso de defeito e suporte técnico telefônico por 30
@@ -168,7 +167,7 @@
             <source media="(max-width: 1100px)"
                 srcset="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v3/imagem-investimento-tabela-mobile.png">
             <img width="100%" height="auto"
-                src="files/imagem-investimento-tabela-ajustada.png"
+                src="files/imagem-investimento-tabela-ok.png"
                 alt="Tabela de investimento compra produtos Fast Shop">
         </picture>
     </div>  
@@ -203,12 +202,8 @@
             <p>Descubra todos nossos cuidados</p>
         </div>
      
-        <div class="carousel_serviços">
-            <div id="fast_rotativo" class="owl-carousel fast_rotativo">
-                <picture>
-                    <img width="100%" height="auto" src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v3/servico_01.png" alt="card sobre serviços Fast Shop">
-                    <a href="https://www.fastshop.com.br/web/a/services_apple"></a>
-                </picture>
+        <div class="todos-servicos">
+            <div class="grupo-servicos">
                 <picture>
                     <img width="100%" height="auto" src="https://fastshopwr-a.akamaihd.net/pages/2024/06/lp-01/files_v3/servico_02.png" alt="card sobre serviços Fast Shop">
                     <a href="https://www.fastshop.com.br/web/a/casa_inteligente"></a>
